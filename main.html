@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="my-counter">
+        <h1 class="counter-title">Door Counter</h1>
+
+        <h1 class="title">Total</h1>
+
+        <h2 id="count-el">0</h2>
+       
+        <div class="male">
+        <button class="malebtn" id="increment-btn" onclick="increment()">People In</button>
+        <button class="malebtn" id="decrease-btn" onclick="decrease()">People Out</button>
+        </div>
+        <button class="savebtn" id="save-btn" onclick="save()">Checked</button>
+        <p id="save-el">Previous Entries: </p>
+       
+    </div>
+   
+    <script src="script.js"></script>
+</body>
